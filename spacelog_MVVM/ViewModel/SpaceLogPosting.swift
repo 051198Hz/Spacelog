@@ -9,13 +9,12 @@
 import Foundation
 import CoreLocation
 
-struct SpaceLogPosting {
+struct SpaceLogPosting: Encodable {
     var lat : String
     var long : String
-    var location : CLLocationCoordinate2D
+//    var location : CLLocationCoordinate2D
     var text : String
 //    var date_created : Date =
-    var id_owner : String = ""
-    
-    
+    var id_owner : String
+    var image_name : String?
 }
