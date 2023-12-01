@@ -9,11 +9,13 @@
 import Foundation
 import CoreLocation
 
-struct SpaceLog {
-    
+struct SpaceLogPosting {
+    var lat : String
+    var long : String
     var location : CLLocationCoordinate2D
     var text : String
-    var date_created : Date
-    var id_owner : String
+//    var date_created : Date =
+    var id_owner : String = ""
+    
     
 }

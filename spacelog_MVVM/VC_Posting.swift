@@ -86,42 +86,7 @@ class VC_Posting: VC_Default {
     //    }
     
     func upload_post() async{
-        
-        let fileName = UUID().uuidString + Date().toString()
-        let FileExtension = ".jpg"
-        let fileData = imageView.image!.jpegData(compressionQuality: 0.8)!
-
-        let supabase = SupabaseClient(supabaseURL: URL(string: "https://knuwpkfcjwgogllrwttv.supabase.co")!, supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtudXdwa2Zjandnb2dsbHJ3dHR2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTk4NDc2NDgsImV4cCI6MjAxNTQyMzY0OH0.iDP2EsQCgD28FKC3sLc_uth8C87I5BuZYsYaNZAJKZg")
-        
-        
-        do {
-            let result = try await supabase.storage
-                .from("spacelog-image")
-//                .upload(path: "\(fileName)", file: file, fileOptions: nil)
-                .upload(
-                    path: "\(fileName)\(FileExtension)",
-                    file: fileData,
-                    options: FileOptions(cacheControl: "3600")
-                )
-            print(result)
-        }catch{
-            
-        }
-        
-        struct Country: Encodable {
-            let body: String
-        }
-        
-        let country = Country(body: "Denmark")
-        do{
-            let result3 = try await supabase.database
-                .from("Test")
-                .insert(country)
-                .execute()
-            print(result3)
-        }catch{
-            
-        }
+        let posting = SpaceLogPosting(
     }
     
 }
