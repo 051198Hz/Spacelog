@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9D344627-40AF-424A-B714-035E92D3D895"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC5F0E50-F708-46F2-888E-282D23916CC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/VC_Posting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DEAC344-F9D0-41A3-B9D3-6DE2C1BA42E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/Utils/Constants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "Image"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B456F66-AB55-4A25-B6B5-723BB2905251"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/Utils/Constants.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "Symbol"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F580B929-D0E2-425E-8387-A8E38E2B603F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/Components/TextView_TMB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "makeAttributedText(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1F5FEF4-7AE6-4D8C-921A-FCDBAD4C322C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/VC_Posting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "upload_post()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1F5FEF4-7AE6-4D8C-921A-FCDBAD4C322C - 776a548a427e58a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "B1F5FEF4-7AE6-4D8C-921A-FCDBAD4C322C - 14bda4ba5bd37be4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "B1F5FEF4-7AE6-4D8C-921A-FCDBAD4C322C - 57a79ab7f1aa3fea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C311D71A-45DA-4385-8C88-0DBCB84A5B8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/VC_Posting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "upload_post()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C311D71A-45DA-4385-8C88-0DBCB84A5B8A - 776a548a427e56b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "C311D71A-45DA-4385-8C88-0DBCB84A5B8A - 14bda4ba5bd37b05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70F07F82-1C3F-4A81-BE42-F1E44B8CD9AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/VC_Posting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "upload_post()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "70F07F82-1C3F-4A81-BE42-F1E44B8CD9AD - c88256fb7965495b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "70F07F82-1C3F-4A81-BE42-F1E44B8CD9AD - 57a79ab7f1aa3ec1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "70F07F82-1C3F-4A81-BE42-F1E44B8CD9AD - 3114f3b1a4995cc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in spacelog_MVVM.VC_Posting.upload_post() -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/VC_Posting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "upload_post()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - 2af75fb0753fae70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1768">
+               </Location>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - 72729b619e8d0c65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - 611379dff547e72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - a4e9ebf062081c03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - 2af75fb0753fae11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1660">
+               </Location>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - 72729b619e8d0c04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - 611379dff547e13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "50A17D88-CF77-48D0-BBE7-84ABA06340CE - 76b1322c508e3608"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for spacelog_MVVM.VC_Posting.upload_post() async -&gt; ()"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_Posting.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F84EE75-80D7-44E5-9A21-37051CD8CC25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/VC_Posting.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "upload_post()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "691E8D51-532F-4CF5-AE54-724CE9A8A8E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spacelog_MVVM/VC_main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "691E8D51-532F-4CF5-AE54-724CE9A8A8E9 - 4bf3cf37af180adc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "spacelog_MVVM.VC_main.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; spacelog_MVVM.VC_main"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "691E8D51-532F-4CF5-AE54-724CE9A8A8E9 - 8c43773f774e8a7a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "spacelog_MVVM.VC_main.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; spacelog_MVVM.VC_main"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "691E8D51-532F-4CF5-AE54-724CE9A8A8E9 - 18eb736eb4e88b2d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "spacelog_MVVM.VC_main.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;spacelog_MVVM.VC_main&gt;"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "691E8D51-532F-4CF5-AE54-724CE9A8A8E9 - 6b1f0a92164cf672"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "spacelog_MVVM.VC_main.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;spacelog_MVVM.VC_main&gt;"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "691E8D51-532F-4CF5-AE54-724CE9A8A8E9 - 62b011e5d80b8e22"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "spacelog_MVVM.VC_main.__ivar_destroyer"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "691E8D51-532F-4CF5-AE54-724CE9A8A8E9 - 9de97c03b5dd234c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "spacelog_MVVM.VC_main.__deallocating_deinit"
+                  moduleName = "spacelog_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/choeeunhong/Documents/spacelog_MVVM/spacelog_MVVM/VC_main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
