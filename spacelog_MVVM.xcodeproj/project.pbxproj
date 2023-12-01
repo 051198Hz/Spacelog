@@ -25,7 +25,7 @@
 		7CA292542AF86F5500588A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA292522AF86F5500588A23 /* Main.storyboard */; };
 		7CA292562AF86F5600588A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA292552AF86F5600588A23 /* Assets.xcassets */; };
 		7CA292592AF86F5600588A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA292572AF86F5600588A23 /* LaunchScreen.storyboard */; };
-		7CA292622AF86F7100588A23 /* SpaceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA292612AF86F7100588A23 /* SpaceLog.swift */; };
+		7CA292622AF86F7100588A23 /* SpaceLogPosting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA292612AF86F7100588A23 /* SpaceLogPosting.swift */; };
 		7CA292642AF876E600588A23 /* SpaceLogListViewMocel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA292632AF876E600588A23 /* SpaceLogListViewMocel.swift */; };
 		7CA2926C2AF87AD400588A23 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2926B2AF87AD300588A23 /* Extensions.swift */; };
 		7CA292712AF8BA7B00588A23 /* GowunBatang-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA2926F2AF8BA7B00588A23 /* GowunBatang-Regular.ttf */; };
@@ -70,7 +70,7 @@
 		7CA292552AF86F5600588A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CA292582AF86F5600588A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA2925A2AF86F5600588A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CA292612AF86F7100588A23 /* SpaceLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLog.swift; sourceTree = "<group>"; };
+		7CA292612AF86F7100588A23 /* SpaceLogPosting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLogPosting.swift; sourceTree = "<group>"; };
 		7CA292632AF876E600588A23 /* SpaceLogListViewMocel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLogListViewMocel.swift; sourceTree = "<group>"; };
 		7CA2926B2AF87AD300588A23 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7CA2926F2AF8BA7B00588A23 /* GowunBatang-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GowunBatang-Regular.ttf"; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 		7CA292602AF86F6600588A23 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7CA292612AF86F7100588A23 /* SpaceLog.swift */,
+				7CA292612AF86F7100588A23 /* SpaceLogPosting.swift */,
 				7CA292632AF876E600588A23 /* SpaceLogListViewMocel.swift */,
 			);
 			path = ViewModel;
@@ -331,7 +331,7 @@
 				7CBD2F782AFA244A00F92FA7 /* VC_main.swift in Sources */,
 				7C97430D2B10C61600405694 /* Button_TMB.swift in Sources */,
 				7C9743092B10738000405694 /* TextView_TMB.swift in Sources */,
-				7CA292622AF86F7100588A23 /* SpaceLog.swift in Sources */,
+				7CA292622AF86F7100588A23 /* SpaceLogPosting.swift in Sources */,
 				7CA292752AF8BAA100588A23 /* Label_TMB.swift in Sources */,
 				7CA292642AF876E600588A23 /* SpaceLogListViewMocel.swift in Sources */,
 				7C9743072B10686B00405694 /* VC_Posting.swift in Sources */,

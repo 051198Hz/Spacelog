@@ -9,7 +9,9 @@
 import Foundation
 import CoreLocation
 
-struct SpaceLogPosting: Encodable {
+struct SpaceLogPosting: Codable {
+    var id : Int?
+    var created_at : String?
     var lat : String
     var long : String
 //    var location : CLLocationCoordinate2D

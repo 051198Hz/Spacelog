@@ -33,7 +33,7 @@ class VC_main: VC_Default {
     }
 
     func addBarButton(){
-        let item_button_search = createBarButtonItem(CGRect(x: 0, y: 0, width: 24, height: 24), Constants.Assetname.Images.Symbol.Search){
+        let item_button_search = createBarButtonItem(CGRect(x: 0, y: 0, width: 24, height: 24), Constants.Assetname.Images.Symbol.Search) {
             print(#function)
         }
         let item_button_menu = createBarButtonItem(CGRect(x: 0, y: 0, width: 24, height: 24), Constants.Assetname.Images.Symbol.Menu){

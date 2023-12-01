@@ -9,6 +9,11 @@ import Foundation
 
 struct Constants{
     static let Assetname = Asset_Name.self
+    static let Texts = Text.self
+}
+
+enum Text{
+    static let placeHolder = "이 공간에 대해 더 알려주실 내용이 있나요?\n없다면 작성하지 않아도 괜찮아요."
 }
 
 enum Asset_Name{

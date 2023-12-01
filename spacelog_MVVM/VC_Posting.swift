@@ -86,7 +86,15 @@ class VC_Posting: VC_Default {
     //    }
     
     func upload_post() async{
-        let posting = SpaceLogPosting(
+        let lat = "\(postCoordinate.latitude)"
+        let long = "\(postCoordinate.longitude)"
+        let text = textView_content.contentText
+        let posting = SpaceLogPosting(lat: lat, long: long ,text: text, id_owner: "")
+        let image = imageView.image!
+        
+        await APIManager.sharedInstance.uploadPostingRequestAPI(posting: posting, image: image)
+        let postings = await APIManager.sharedInstance.downloadPostingRequestAPI()
+        print(postings)
     }
     
 }

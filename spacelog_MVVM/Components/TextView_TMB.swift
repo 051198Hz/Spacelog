@@ -8,8 +8,15 @@
 import UIKit
 
 class TextView_TMB: UITextView, UITextViewDelegate {
+    
+    var contentText: String{
+        get{
+            return text == Constants.Texts.placeHolder ?  "" : text
+        }
+    }
+    
     let maxCount = 60
-    let placeHolderText = "이 공간에 대해 더 알려주실 내용이 있나요?\n없다면 작성하지 않아도 괜찮아요."
+    let placeHolderText = Constants.Texts.placeHolder
     let placeholderColor = UIColor(named: Constants.Assetname.Colors.Text.Secondary)
     var textCountLabel : Label_TMB?
     
