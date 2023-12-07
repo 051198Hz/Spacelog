@@ -85,27 +85,44 @@ class APIManager{
     
     
     // MARK: - Supabase storage 이미지 다운로드 요청 API
-//    func downloadImageRequestAPI(image : UIImage) async -> String? {
-//        let fileName = UUID().uuidString + "_" + Date().toString()
-//        let FileExtension = ".jpg"
-//        let fileData = image.jpegData(compressionQuality: 0.8)!
-//        var result : String
-//        do {
-//            result = try await supabaseClient.storage
-//                .from("spacelog-image")
-//                .upload(
-//                    path: "\(fileName)\(FileExtension)",
-//                    file: fileData,
-//                    options: FileOptions(cacheControl: "3600",contentType: "image/jpeg")
-//                )
-//        }catch{
-//            print(error)
-//            print("Failed to download image")
-//            return nil
-//        }
-//        return fileName
-//    }
+    func downloadImageRequestAPI(imageURL : String, _ frameSize : CGRect?) async -> Data? {
+        
+        var file : Data?
+        do{
+            if let frameSize{
+                file = try await supabaseClient.storage
+                  .from("spacelog-image")
+                  .download(path: "user-1212/"+imageURL, options: TransformOptions(width: Int(frameSize.width), height: Int(frameSize.height), resize: "fill"))
+            }else{
+                file = try await supabaseClient.storage
+                  .from("spacelog-image")
+                  .download(path: "user-1212/"+imageURL )
+            }
+        }catch{
+            print(error)
+            print("Failed to download image")
+            return nil
+        }
+        print(file)
+        return file
+    }
     
- 
+    // MARK: - Supabase storage 이미지 다운로드 요청 API
+    func downloadImageRequestAPI(imageURL: String) async -> Data? {
+        
+        var file : Data?
+        do{
+                file = try await supabaseClient.storage
+                  .from("spacelog-image")
+                  .download(path: "user-1212/"+imageURL )
+        
+        }catch{
+            print(error)
+            print("Failed to download image")
+            return nil
+        }
+        print(file)
+        return file
+    }
     
 }

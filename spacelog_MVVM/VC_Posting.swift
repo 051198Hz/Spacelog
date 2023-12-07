@@ -52,6 +52,13 @@ class VC_Posting: VC_Default {
         imageView.image = imgCropped
         view_textView.addBottomBorderWithColor(color: UIColor(named: Constants.Assetname.Colors.Text.Tertiary)!, width: 1)
     }
+    @IBAction func pressed_btn_posting(_ sender: Any) {
+         Task { [weak self] in
+//            await self?.upload_post()
+             await self?.download_image()
+            self?.dismiss(animated: true)
+        }
+    }
     
     func addBarButton(){
         
@@ -62,7 +69,8 @@ class VC_Posting: VC_Default {
             self?.view.endEditing(true)
             print(#function)
             Task {
-                await self?.upload_post()
+//                await self?.upload_post()
+                await self?.download_image()
             }
         
         }
@@ -95,6 +103,17 @@ class VC_Posting: VC_Default {
         await APIManager.sharedInstance.uploadPostingRequestAPI(posting: posting, image: image)
         let postings = await APIManager.sharedInstance.downloadPostingRequestAPI()
         print(postings)
+    }
+    
+    func download_image() async{
+        let url = "33642E73-3FC8-4D84-B74A-867B3CB8536D_2023-12-01_17:10:05.jpg"
+        guard let image = await APIManager.sharedInstance.downloadImageRequestAPI(imageURL: url) else {
+            print("faile to load image")
+            return }
+        DispatchQueue.main.async {
+            [weak self] in
+            self?.imageView.image = UIImage(data: image)
+        }
     }
     
 }

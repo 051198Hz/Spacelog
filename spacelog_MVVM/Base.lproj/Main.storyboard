@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WA3-6I-5G0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2ho-yt-UCm">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -200,6 +200,9 @@
                                         <state key="normal" title="기록하기">
                                             <color key="titleColor" name="invertedText"/>
                                         </state>
+                                        <connections>
+                                            <action selector="pressed_btn_posting:" destination="2ho-yt-UCm" eventType="touchUpInside" id="VE9-cM-QQI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
