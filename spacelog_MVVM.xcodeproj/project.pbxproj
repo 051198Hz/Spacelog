@@ -48,8 +48,11 @@
 		7CD3EC8C2AF9F32E0012445F /* Header_Spacelog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3EC8B2AF9F32E0012445F /* Header_Spacelog.swift */; };
 		7CD3EC8F2AF9F4610012445F /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3EC8E2AF9F4610012445F /* XibView.swift */; };
 		7CD3EC912AF9F96E0012445F /* Heading_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3EC902AF9F96E0012445F /* Heading_Label.swift */; };
+		7CE05CE52B21CABE003E8FE2 /* VC_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE05CE42B21CABE003E8FE2 /* VC_List.swift */; };
 		7CE39B432B19BB4C007DE895 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE39B422B19BB4C007DE895 /* APIManager.swift */; };
 		7CEB729D2B14A4C0000D3C4B /* Mantis in Frameworks */ = {isa = PBXBuildFile; productRef = 7CEB729C2B14A4C0000D3C4B /* Mantis */; };
+		7CF157572B22B2AC009820A5 /* Cell_Spacelog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF157562B22B2AC009820A5 /* Cell_Spacelog.swift */; };
+		7CF157592B22B2C3009820A5 /* Cell_Spacelog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF157582B22B2C3009820A5 /* Cell_Spacelog.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,7 +89,10 @@
 		7CD3EC8B2AF9F32E0012445F /* Header_Spacelog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header_Spacelog.swift; sourceTree = "<group>"; };
 		7CD3EC8E2AF9F4610012445F /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		7CD3EC902AF9F96E0012445F /* Heading_Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heading_Label.swift; sourceTree = "<group>"; };
+		7CE05CE42B21CABE003E8FE2 /* VC_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_List.swift; sourceTree = "<group>"; };
 		7CE39B422B19BB4C007DE895 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7CF157562B22B2AC009820A5 /* Cell_Spacelog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_Spacelog.swift; sourceTree = "<group>"; };
+		7CF157582B22B2C3009820A5 /* Cell_Spacelog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell_Spacelog.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +157,10 @@
 				7CA2924E2AF86F5500588A23 /* SceneDelegate.swift */,
 				7C9646922AFA07990069B7DC /* VC_Default.swift */,
 				7CA292522AF86F5500588A23 /* Main.storyboard */,
+				7CE05CE42B21CABE003E8FE2 /* VC_List.swift */,
 				7CBD2F772AFA244A00F92FA7 /* VC_main.swift */,
 				7C9743062B10686B00405694 /* VC_Posting.swift */,
+				7CF157552B22B276009820A5 /* Cell */,
 				7CD3EC8D2AF9F36A0012445F /* Header */,
 				7CA292552AF86F5600588A23 /* Assets.xcassets */,
 				7CA292572AF86F5600588A23 /* LaunchScreen.storyboard */,
@@ -230,6 +238,15 @@
 				7CE39B422B19BB4C007DE895 /* APIManager.swift */,
 			);
 			path = APIservieces;
+			sourceTree = "<group>";
+		};
+		7CF157552B22B276009820A5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7CF157562B22B2AC009820A5 /* Cell_Spacelog.swift */,
+				7CF157582B22B2C3009820A5 /* Cell_Spacelog.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA292592AF86F5600588A23 /* LaunchScreen.storyboard in Resources */,
+				7CF157592B22B2C3009820A5 /* Cell_Spacelog.xib in Resources */,
 				7CD3EC8A2AF9F2BE0012445F /* Header_Spacelog.xib in Resources */,
 				7CA292562AF86F5600588A23 /* Assets.xcassets in Resources */,
 				7CA292542AF86F5500588A23 /* Main.storyboard in Resources */,
@@ -328,6 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF157572B22B2AC009820A5 /* Cell_Spacelog.swift in Sources */,
+				7CE05CE52B21CABE003E8FE2 /* VC_List.swift in Sources */,
 				7CBD2F782AFA244A00F92FA7 /* VC_main.swift in Sources */,
 				7C97430D2B10C61600405694 /* Button_TMB.swift in Sources */,
 				7C9743092B10738000405694 /* TextView_TMB.swift in Sources */,

@@ -10,6 +10,7 @@ import Foundation
 struct Constants{
     static let Assetname = Asset_Name.self
     static let Texts = Text.self
+    static let heightFeedCell:CGFloat = 531
 }
 
 enum Text{
@@ -29,6 +30,9 @@ enum Font {
 
 enum Color{
     static let Accent = "accent"
+    enum Border{
+        static let Tertiary = "tertiaryBorder"
+    }
     enum Text{
         static let Primary = "primaryText"
         static let Secondary = "secondaryText"
@@ -43,6 +47,9 @@ enum Color{
     enum FAB{
         static let Primary = "primaryFAB"
         static let Secondary = "secondaryFAB"
+    }
+    enum Background{
+        static let Primary = "primaryBackground"
     }
 }
 

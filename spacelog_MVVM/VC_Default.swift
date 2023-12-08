@@ -12,11 +12,15 @@ class VC_Default: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(named: "background")
+        view.backgroundColor = UIColor(named: "primaryBackground")
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
-
+        setUI()
 //        keyboardDownSet()
         // Do any additional setup after loading the view.
+    }
+    
+    func setUI(){
+        
     }
     
     @objc func hideKeyboard() {

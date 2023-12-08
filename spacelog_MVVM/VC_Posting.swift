@@ -46,7 +46,7 @@ class VC_Posting: VC_Default {
         self.removeKeyboardNotifications()
     }
     
-    func setUI(){
+    override func setUI(){
         addBarButton()
         textView_content.setCountlabel(label_contentCount)
         imageView.image = imgCropped

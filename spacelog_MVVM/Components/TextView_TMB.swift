@@ -10,16 +10,35 @@ import UIKit
 class TextView_TMB: UITextView, UITextViewDelegate {
     
     var contentText: String{
+        set{
+            text = newValue
+            setUI()
+        }
         get{
             return text == Constants.Texts.placeHolder ?  "" : text
         }
     }
     
     @IBInspectable
-    var pxfontSize: CGFloat = 16
+    lazy var pxfontSize: CGFloat = 16{
+        didSet{
+            setUI()
+        }
+    }
     
     @IBInspectable
-    var pxLineHeight: CGFloat = 24.0
+    lazy var pxLineHeight: CGFloat = 24.0{
+        didSet{
+            setUI()
+        }
+    }
+    
+    @IBInspectable
+    lazy var letter_spacing: CGFloat = -0.48{
+        didSet{
+            setUI()
+        }
+    }
 
     let maxCount = 60
     let placeHolderText = Constants.Texts.placeHolder
@@ -28,18 +47,24 @@ class TextView_TMB: UITextView, UITextViewDelegate {
     
     override init(frame: CGRect, textContainer: NSTextContainer?) {
         super.init(frame: frame, textContainer: textContainer)
-        setUI()
+        print(#function)
+
+//        setUI()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.delegate = self
-        setUI()
+        print(#function)
+
+//        setUI()
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        print(#function)
         self.delegate = self
+        
         setUI()
     }
     
@@ -48,10 +73,17 @@ class TextView_TMB: UITextView, UITextViewDelegate {
         //        layer.borderWidth = 1.0
         //        layer.borderColor = UIColor.lightGray.withAlphaComponent(0.7).cgColor
         //        textContainerInset = UIEdgeInsets(top: 16.0, left: 16.0, bottom: 16.0, right: 16.0)
+        if text.isEmpty {
+            text = placeHolderText
+        }
         
-        attributedText = makeAttributedText(placeHolderText)
-        text = placeHolderText
-        textColor = placeholderColor
+        attributedText = makeAttributedText(text)
+        
+        if attributedText.string == placeHolderText{
+            textColor = placeholderColor
+        }else{
+            textColor = UIColor(named: Constants.Assetname.Colors.Text.Primary)
+        }
         textContainerInset = UIEdgeInsets (top: 0, left: -textContainer.lineFragmentPadding, bottom: 0,
         right: -textContainer.lineFragmentPadding)
         
@@ -132,8 +164,10 @@ class TextView_TMB: UITextView, UITextViewDelegate {
     }
     
     func makeAttributedText(_ title : String?) -> NSAttributedString {
-        var attributes : [NSAttributedString.Key: Any]? = [:]
         
+        var attributes : [NSAttributedString.Key: Any]? = [:]
+//        print("pxfontSize", pxfontSize)
+//        print("pxLineHeight", pxLineHeight)
         let style = NSMutableParagraphStyle()
         let font = UIFont(name: Constants.Assetname.Fonts.Regular, size: pxfontSize)
         // [iOS 특정 버전 이상 분기 처리 사용]
@@ -145,7 +179,6 @@ class TextView_TMB: UITextView, UITextViewDelegate {
             attributes?.updateValue(style, forKey: .paragraphStyle)
             attributes?.updateValue((pxLineHeight - font!.lineHeight) / 4, forKey: .baselineOffset)
         }
-        let letter_spacing = -0.48
         attributes?.updateValue(letter_spacing, forKey: .kern)
         attributes?.updateValue(font!, forKey: .font)
 

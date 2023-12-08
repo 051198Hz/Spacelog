@@ -33,6 +33,7 @@ class Header_Spacelog: XibView {
         if #available(iOS 13.0, *) {
             NavBar.standardAppearance.backgroundColor = .clear
             NavBar.standardAppearance.backgroundEffect = .none
+            backgroundColor = .clear
         }
     }
 }
