@@ -15,6 +15,12 @@ class TextView_TMB: UITextView, UITextViewDelegate {
         }
     }
     
+    @IBInspectable
+    var pxfontSize: CGFloat = 16
+    
+    @IBInspectable
+    var pxLineHeight: CGFloat = 24.0
+
     let maxCount = 60
     let placeHolderText = Constants.Texts.placeHolder
     let placeholderColor = UIColor(named: Constants.Assetname.Colors.Text.Secondary)
@@ -129,8 +135,7 @@ class TextView_TMB: UITextView, UITextViewDelegate {
         var attributes : [NSAttributedString.Key: Any]? = [:]
         
         let style = NSMutableParagraphStyle()
-        let pxLineHeight = 24.0
-        let font = UIFont(name: Constants.Assetname.Fonts.Regular, size: 16)
+        let font = UIFont(name: Constants.Assetname.Fonts.Regular, size: pxfontSize)
         // [iOS 특정 버전 이상 분기 처리 사용]
         if #available(iOS 16.4, *) {
             attributes?.updateValue(style, forKey: .paragraphStyle)
