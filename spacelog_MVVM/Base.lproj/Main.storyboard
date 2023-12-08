@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dm9-PS-nfz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WA3-6I-5G0">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
-        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -68,26 +67,25 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpW-Wt-sdY">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeD-Sp-QeQ" customClass="NMFMapView">
                                 <rect key="frame" x="0.0" y="98" width="375" height="714"/>
-                                <standardMapConfiguration key="preferredConfiguration"/>
-                            </mapView>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="95h-dX-8Ui"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="SAO-gY-arz" firstAttribute="top" secondItem="95h-dX-8Ui" secondAttribute="top" id="26f-Xq-EG3"/>
-                            <constraint firstItem="qpW-Wt-sdY" firstAttribute="leading" secondItem="eGO-Vq-WQV" secondAttribute="leading" id="5TW-EE-oDS"/>
-                            <constraint firstAttribute="bottom" secondItem="qpW-Wt-sdY" secondAttribute="bottom" id="Nre-hn-euP"/>
+                            <constraint firstItem="PeD-Sp-QeQ" firstAttribute="top" secondItem="SAO-gY-arz" secondAttribute="bottom" id="FRj-hp-wKe"/>
+                            <constraint firstItem="PeD-Sp-QeQ" firstAttribute="bottom" secondItem="eGO-Vq-WQV" secondAttribute="bottom" id="Rnd-Bl-TnQ"/>
                             <constraint firstAttribute="trailing" secondItem="SAO-gY-arz" secondAttribute="trailing" id="RvT-ST-DhU"/>
-                            <constraint firstAttribute="trailing" secondItem="qpW-Wt-sdY" secondAttribute="trailing" id="gI5-gv-514"/>
+                            <constraint firstItem="95h-dX-8Ui" firstAttribute="trailing" secondItem="PeD-Sp-QeQ" secondAttribute="trailing" id="gNV-lM-cCc"/>
                             <constraint firstItem="SAO-gY-arz" firstAttribute="leading" secondItem="eGO-Vq-WQV" secondAttribute="leading" id="iHe-zF-eVi"/>
-                            <constraint firstItem="qpW-Wt-sdY" firstAttribute="top" secondItem="SAO-gY-arz" secondAttribute="bottom" id="szq-YX-1pw"/>
+                            <constraint firstItem="PeD-Sp-QeQ" firstAttribute="leading" secondItem="95h-dX-8Ui" secondAttribute="leading" id="uAJ-ER-40w"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Header_bar" destination="SAO-gY-arz" id="C6e-FS-qqz"/>
-                        <outlet property="mapView" destination="qpW-Wt-sdY" id="gTQ-N5-osE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNk-Zh-SMU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -16,7 +16,7 @@ class APIManager{
     init(){
         supabaseClient = SupabaseClient(supabaseURL: URL(string: supabaseURL)!, supabaseKey: supabaseAnonPublicKey)
     }
-    
+    let naverClientID = "n6q7ir9vtp"
     private var supabaseClient : SupabaseClient!
     private let supabaseURL = "https://knuwpkfcjwgogllrwttv.supabase.co"
     private let supabaseAnonPublicKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtudXdwa2Zjandnb2dsbHJ3dHR2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTk4NDc2NDgsImV4cCI6MjAxNTQyMzY0OH0.iDP2EsQCgD28FKC3sLc_uth8C87I5BuZYsYaNZAJKZg"

@@ -26,7 +26,7 @@ class VC_main: VC_Default {
         addBarButton()
         uiSet()
         locationSet()
-        mapSet()
+//        mapSet()
     }
     
     @objc private func buttonPressed(_ uibutton: UIButton) {
@@ -243,7 +243,7 @@ extension VC_main : CLLocationManagerDelegate {
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         switch manager.authorizationStatus {
         case .authorizedWhenInUse:  // Location services are available.
-            mapView.show_Annotation_UserLocation()
+//            mapView.show_Annotation_UserLocation()
             break
             
         case .restricted, .denied:  // Location services currently unavailable.

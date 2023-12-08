@@ -1,0 +1,6 @@
+framework module Pods_spacelog_MVVM {
+  umbrella header "Pods-spacelog_MVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}
