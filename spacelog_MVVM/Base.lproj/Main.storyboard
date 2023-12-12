@@ -67,7 +67,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeD-Sp-QeQ" customClass="NMFMapView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeD-Sp-QeQ" customClass="NMFNaverMapView">
                                 <rect key="frame" x="0.0" y="98" width="375" height="714"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -86,6 +86,7 @@
                     </view>
                     <connections>
                         <outlet property="Header_bar" destination="SAO-gY-arz" id="C6e-FS-qqz"/>
+                        <outlet property="mapView" destination="PeD-Sp-QeQ" id="6fL-nn-kPN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNk-Zh-SMU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -289,7 +290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOV-BY-h1r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2036" y="-34"/>
+            <point key="canvasLocation" x="2007" y="-27"/>
         </scene>
     </scenes>
     <designables>
