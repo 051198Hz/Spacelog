@@ -1,2 +1,2 @@
-![깃허브 타이틀](https://github.com/051198Hz/Spacelog/assets/82448654/c43e8bf2-51aa-41e0-a843-5366d1e61703)
+![깃허브 등록용 배너](https://github.com/051198Hz/Spacelog/assets/82448654/5319a23a-c815-44da-998c-595f9efa6f9b)
 # 공간기록
